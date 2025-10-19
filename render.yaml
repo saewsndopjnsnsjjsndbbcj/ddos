@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: safe-sim-server
+    env: python
+    buildCommand: ""
+    startCommand: "python sv.py"
+    plan: free
